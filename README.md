@@ -18,19 +18,36 @@ Listen 1 让你用一个网页就能听到多个网站的在线音乐（现已�
 
 安装
 ----
-#### Windows 环境
-Windows安装包（点击下载）：[listen1_windows.zip](https://github.com/listen1/listen1/releases/download/v1.0/listen1_windows_v1_0.zip)
+Chrome插件版
 
-1. 解压缩后，运行msi文件完成安装。
-2. 点击桌面的Listen 1图标就会打开Listen 1的应用网页了。  
+    下载Chrome插件版压缩包，并解压缩
+    打开 Chrome 扩展页面，勾选右上角「开发者模式」
+    选择「加载已解压的扩展程序…」，选择刚刚解压缩的文件夹
+    开始使用
 
-注意：可能误触发杀毒软件的警报，请忽略。
+Firefox插件版
 
-#### Mac 环境
-Mac安装包（点击下载）：[listen1_mac.dmg](https://github.com/listen1/listen1/releases/download/v1.0/listen1_mac_v1_0.dmg)
+    下载Firefox插件版，并解压缩
+    打开 about:config 页面，xpinstall.signatures.required 设置为 false
+    选择「附加组件」，齿轮图标，选择从文件安装附加组件，选择下载的xpi文件
+    开始使用
 
-1. 运行dmg文件完成安装。
-2. 点击Listen 1图标就会打开Listen 1的应用网页了。
+Windows桌面版
+
+    下载Windows压缩包，根据系统选择32位或64位版本
+    解压缩，运行 Listen1.exe
+
+Mac桌面版
+
+    下载并运行dmg，在打开的安装窗口把Listen 1图标拖动到右侧
+    点击Listen 1图标运行
+
+Linux桌面版
+
+    根据系统选择32位或64位版本，下载AppImage安装包
+    将安装包放到合适的位置，右键安装包>属性>权限>赋予执行权限，或在命令行使用chmod a+x赋予执行权限，然后就可直接双击运行软件，弹出是否将软件集成到程序菜单中的窗口，同意或不同意都可运行软件，建议同意
+    如果需要debian安装包，请访问 此链接
+
 
 调试开发
 ----------
